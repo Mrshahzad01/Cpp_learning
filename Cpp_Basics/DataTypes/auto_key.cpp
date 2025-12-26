@@ -8,7 +8,7 @@ For example: Instead of writing int x = 5;, you can write:
 using namespace std;
  
 int main () {
-  auto x = 5 ,y = 12;   // x is automatically treated as int   
-  cout << x + y;
+  auto x = 5 ,z = 12;   // x is automatically treated as int   
+  cout << x + z;
   return 0;
 }
